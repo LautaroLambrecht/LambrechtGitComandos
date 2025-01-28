@@ -1,2 +1,3 @@
 1. grep -i "juan" datos.txt
 2. cut -d ',' -f2,4 datos.txt | grep -i "juan"
+3. grep -i "prog" datos.txt| wc -l
