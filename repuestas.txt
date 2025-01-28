@@ -4,3 +4,4 @@
 4. cut -d ',' -f5 datos.txt | grep -v "-" | grep -i "prog" | wc -l
 5. cut -d ',' -f2,4  datos.txt | grep -E ".es"
 6. sed 's/.com/.net/g' datos.txt
+7. cut -d ',' -f5 datos.txt | cut -d ',' -f2 | grep -c -o "-"
